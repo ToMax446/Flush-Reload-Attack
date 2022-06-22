@@ -11,7 +11,7 @@ The attacker was implemented using [MASTIK](https://cs.adelaide.edu.au/~yval/Mas
 The target was implemented in C language. I have implemented a python version of it but in order to keep it simple for measuring time more accurately I decided to use the C version. The target will mimic a benign process/user. It will randomly will "type" input to a GTK window, in random times making it more realistic like and harder to detect.
 
 ## Mesurement
-In order to understand the attack's efficiency I made both the attacker and the target to document their typing/keystroke discovery. After the run has ended, my python script will test the outputs of the attacker and the target and will measure those which the time difference was lower than ==DELTA== (can be changed in the code).
+In order to understand the attack's efficiency I made both the attacker and the target to document their typing/keystroke discovery. After the run has ended, my python script will test the outputs of the attacker and the target and will measure those which the time difference was lower than `DELTA` (can be changed in the code).
 The python script will document it's result in a JSON file and after a few runs will document the avarage.
 
 ## Results
