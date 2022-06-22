@@ -16,7 +16,7 @@ The python script will document it's result in a JSON file and after a few runs 
 
 ## Results
 When I tested the script for the last time it ran for about 22.5 minutes resulting in avarage of 0.6901 accuracy over 10 runs which was lower than I exptected but I was using a VM which adds noise to the measurement of the cache.
-It can be optimized by using a Linux machine, and changing the time and the ==DELTA==.
+It can be optimized by using a Linux machine, and changing the time and the `DELTA`.
 
 ## Activation
 
